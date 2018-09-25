@@ -11,38 +11,40 @@
     >>pip install -r requirements.txt
 
 ## Running Sample:
+
     >>(venv) Rupams-MacBook-Pro:RUPKUNSDE001 rupamkundu$ python ./Qs1/scrapefbdata.py
 
 ## To Exit VirtualEnv:
+
     >>deactivate
 
 ## Sample Output:
 
     >> (venv) Rupams-MacBook-Pro:RUPKUNSDE001 rupamkundu$ python ./Qs1/scrapefbdata.py
     -------------------------------------------------------
-### Check ./Qs1/Data/Top_expedia_Facebook_Post.json in ./Qs1/Data/!!!!!!!!!!!
--------------------------------------------------------
-### Top 10 Posts of expedia
--------------------------------------------------------
-Post 1: Where are you traveling this autumn Check out our ExpediaViewfinder blog for all your fall travel needs httpbitly2D6HzGS
+    Check ./Qs1/Data/Top_expedia_Facebook_Post.json in ./Qs1/Data/!!!!!!!!!!!
+    -------------------------------------------------------
+    Top 10 Posts of expedia
+    -------------------------------------------------------
+    Post 1: Where are you traveling this autumn Check out our ExpediaViewfinder blog for all your fall travel needs httpbitly2D6HzGS
 
-Post 2: Click Pack Go Book a mini vacay to Florida for a quick fall getaway  
+    Post 2: Click Pack Go Book a mini vacay to Florida for a quick fall getaway  
 
-Post 3: Happy FirstDayOfFall  Time for leaf peeping and all things pumpkin spice Start enjoying the season with these essential fall experiences
+    Post 3: Happy FirstDayOfFall  Time for leaf peeping and all things pumpkin spice Start enjoying the season with these essential fall experiences
 
-Post 4: From beach landscapes you dream of, to stunning mountain backdrops, these are the most scenic east coast destinations you have to see
+    Post 4: From beach landscapes you dream of, to stunning mountain backdrops, these are the most scenic east coast destinations you have to see
 
-Post 5: From the farms of Pungo to the depths of the Chesapeake Bay, the local Virginia Beach food scene is unmatched in freshness and flavor
+    Post 5: From the farms of Pungo to the depths of the Chesapeake Bay, the local Virginia Beach food scene is unmatched in freshness and flavor
 
-Post 6: Experience Mt Fuji in Japan with Tokaido Shinkansen
+    Post 6: Experience Mt Fuji in Japan with Tokaido Shinkansen
 
-Post 7: Refresh and unwind in Vancouver this fall a city wrapped in clear ocean and towering evergreen mountains
+    Post 7: Refresh and unwind in Vancouver this fall a city wrapped in clear ocean and towering evergreen mountains
 
-Post 8: Vacationing in new places can bring opportunities to try unique cuisines Check out these iconic US destinations for your taste buds
+    Post 8: Vacationing in new places can bring opportunities to try unique cuisines Check out these iconic US destinations for your taste buds
 
-Post 9: Enjoy great landscapes, beautiful crafts and unique Mayan culture Adventure in Salvador, Mayan ruins in Guatemala, amazing coastlines in Honduras and more Let Avianca take you to fall in love with it all
+    Post 9: Enjoy great landscapes, beautiful crafts and unique Mayan culture Adventure in Salvador, Mayan ruins in Guatemala, amazing coastlines in Honduras and more Let Avianca take you to fall in love with it all
 
-Post 10: Head to Guatemala for whitewater rafting, deepsea fishing, Mayan ruins and camping under the stars And La Antigua is buzzing with good times and great vibes Its paradise
+    Post 10: Head to Guatemala for whitewater rafting, deepsea fishing, Mayan ruins and camping under the stars And La Antigua is buzzing with good times and great vibes Its paradise
 
 ## File Storage Format
 
