@@ -1,5 +1,4 @@
 '''
-Expedia Coding Challenge
 Author: Rupam Kundu, The Ohio State University
 '''
 import requests
