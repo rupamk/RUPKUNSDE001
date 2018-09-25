@@ -84,7 +84,7 @@ class Fbpagepostquery(object):
 
     def dumpjson(self,data):
         try:
-            path = "./Qs1/Data/"
+            path = "./GetFbPost/Data/"
             if data==  {"Top Facebook Post": []}:
                 raise ValueError('No post found')
             self.set_postquery_name()
@@ -103,7 +103,7 @@ class Fbpagepostquery(object):
                 raise ValueError('Empty Filename')
             print('Top ' + str(x) + ' Posts of ' + str(self.page_query))
             print("-------------------------------------------------------")
-            path = "./Qs1/Data/"
+            path = "./GetFbPost/Data/"
             index = "Top " + self.page_query + " Facebook Post"
             with open(path+self.filename) as json_file:
                 data = json.load(json_file)
