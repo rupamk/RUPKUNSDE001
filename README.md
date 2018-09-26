@@ -4,20 +4,16 @@
     virtualenv==15.1.0
 
 ## Instructions to set-up:
-    >>git clone git@github.com:rupamk/RUPKUNSDE001.git
-    >>cd RUPKUNSDE001
-    >> pip install virtualenv
-    >>virtualenv venv
-    >>source venv/bin/activate
-    >>pip install -r requirements.txt
+    git clone git@github.com:rupamk/RUPKUNSDE001.git
+    cd RUPKUNSDE001
+    pip install virtualenv
+    virtualenv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
 
 ## Running Sample:
 
-    >>(venv) Rupams-MacBook-Pro:RUPKUNSDE001 rupamkundu$ python ./GetFbPost/ScrapeFbdata.py
-
-## To Exit VirtualEnv:
-
-    >>deactivate
+    python ./GetFbPost/ScrapeFbdata.py
 
 ## Sample Output:
 
@@ -92,4 +88,8 @@
     9    
     Content    "Head to Guatemala for whitewater rafting, deepsea fishing, Mayan ruins and camping under the stars And La Antigua is buzzing with good times and great vibes Its paradise"
     Timestamp    "September 13 at 10:00 AM"
+    
+  ## To Exit VirtualEnv:
+
+    deactivate
 
