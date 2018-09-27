@@ -15,10 +15,6 @@
 
     python ./GetFbPost/ScrapeFbdata.py
 
-## To Exit VirtualEnv:
-
-    >>deactivate
-
 ## Sample Output:
 
     >> (venv) Rupams-MacBook-Pro:RUPKUNSDE001 rupamkundu$ python ./GetFbPost/ScrapeFbdata.py
@@ -92,4 +88,8 @@
     9    
     Content    "Head to Guatemala for whitewater rafting, deepsea fishing, Mayan ruins and camping under the stars And La Antigua is buzzing with good times and great vibes Its paradise"
     Timestamp    "September 13 at 10:00 AM"
+    
+  ## To Exit VirtualEnv:
+
+    deactivate
 
