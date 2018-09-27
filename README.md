@@ -4,16 +4,16 @@
     virtualenv==15.1.0
 
 ## Instructions to set-up:
-    >>git clone git@github.com:rupamk/RUPKUNSDE001.git
-    >>cd RUPKUNSDE001
-    >> pip install virtualenv
-    >>virtualenv venv
-    >>source venv/bin/activate
-    >>pip install -r requirements.txt
+    git clone git@github.com:rupamk/RUPKUNSDE001.git
+    cd RUPKUNSDE001
+    pip install virtualenv
+    virtualenv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
 
 ## Running Sample:
 
-    >>(venv) Rupams-MacBook-Pro:RUPKUNSDE001 rupamkundu$ python ./GetFbPost/ScrapeFbdata.py
+    python ./GetFbPost/ScrapeFbdata.py
 
 ## To Exit VirtualEnv:
 
@@ -49,7 +49,7 @@
 
 ## File Storage Format
 
-### Data is stored as "json" format inside ./GetFbPost/Data/ . The data shown above is stored as "Top_expedia_Facebook_Post.json":
+### Data is stored as "json" format inside ./GetFbPost/Data/ . JSON format provides easy parsing, lightweight and fast, and offers easy human readable format.  The data shown above is stored as "Top_expedia_Facebook_Post.json":
 
 
     Top expedia Facebook Post    
