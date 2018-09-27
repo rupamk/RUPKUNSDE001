@@ -1,0 +1,29 @@
+1) Write a script code to be executed from a command line using either python, ruby, or PowerShell that extracts returns the text of the last 8 posts made on Expedia Facebook Page, and re-writes such data into a text file using JSON. Be creative on writing the post text and respective date, and justify your decision.
+
+
+I initially thought of using the Facebook API. However, recently facebook does not allow public page access without reviewing the app privacy policy. 
+
+Hence I opted for normal HTML Parsing. Using requests:
+
+	page = requests.get(url, timeout=6.0)
+
+The content fetched by page is nothing but the HTML version of the webpage (which can also be obtained manually by right click on the webpage and selecting View Page Source)
+
+Now using Beautiful Soup from Python to parse the HTML output, I searched for the tags containing the desired information
+
+
+soup = BeautifulSoup(page.content, 'html.parser')
+timestamps = soup.find_all('abbr', {'class': '_5ptz'})
+post = soup.find_all('div', {'class': '_5pbx userContent _3576'})
+
+
+I have used JSON format for the data storage because of its dictionary kind of resemblance used in python.
+
+ data[index].append({
+                        'Timestamp': time,
+                        'Content': content
+                    }
+                    )
+
+
+

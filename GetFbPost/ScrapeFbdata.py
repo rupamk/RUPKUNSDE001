@@ -118,7 +118,7 @@ if __name__ == "__main__":
     obj = Fbpagepostquery()
     '''Get Posts'''
     obj.set_page_query("expedia")
-    obj.get_top_post(10)
+    obj.get_top_post(8)
 
 #%-----------------------------------------------------EOF------------------------------------------------------------%/
 
